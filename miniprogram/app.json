@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/2.2/view/index",
+    "pages/2.1/rich-text/index",
+    "pages/2.1/progress/index",
+    "pages/2.1/icon/index",
+    "pages/2.3/scroll-view/index",
+    "pages/2.1/text/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "微信小程序全栈开发实践",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
