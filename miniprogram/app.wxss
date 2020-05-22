@@ -1,10 +1,48 @@
-@import './weui-miniprogram/weui-wxss/dist/style/weui.wxss';
-Page {
-  padding:0;
+/* @import '/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss'; */
+
+page {
+  background-color: #F8F8F8;
+  height: 100%;
+  font-size: 32rpx;
+  line-height: 1.6;
+  padding-bottom: 50rpx;
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
+
+.page-section{
+  padding: 20rpx 50rpx 60rpx;
+  width: 650rpx;
+}
+
+.page-section:last-child{
+  margin-bottom: 0;
+}
+
+.page-section-title{
+  font-size: 28rpx;
+  color: #999999;
+  margin: 40rpx 0 20rpx;
+}
+
+.btn-area{
+  box-sizing: border-box;
+  width: auto;
+  padding: 30rpx 0 30rpx;
+}
+
+.btn-area button {
+  margin-top: 20rpx;
+}
+.btn-area:first-child {
+  margin-top: 0;
+}
+
 .example-container{
-  margin: 40rpx;
-  width: 670rpx;
+  margin: 40rpx 0 40rpx;
+  width: 650rpx;
   height: 100%;
 }
 .scale5{
@@ -40,14 +78,6 @@ button:focus{
 
 button::after{
   border: none;
-}
-
-
-page {
-  background: #f6f6f6;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
 }
 
 .userinfo, .uploader, .tunnel {
