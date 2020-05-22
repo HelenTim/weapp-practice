@@ -74,7 +74,7 @@ movable-area {
 
 
 /*  */
-/* .slideViewClass .weui-cell{
+.slideViewClass .weui-cell{
   padding: 0;
-} */
+}
 
