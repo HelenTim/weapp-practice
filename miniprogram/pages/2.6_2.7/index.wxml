@@ -1,4 +1,4 @@
-<!-- 2.6  -->
+<!-- 2.6 一 -->
 <!-- 片4 三种拖拽情况 -->
 <!-- 1 movable-view = movable-area -->
 <view class="page-section">
@@ -53,6 +53,15 @@
   </movable-view>
 </movable-area>
 </view>
+
+
+
+
+<!-- 2.7 （二） -->
+
+
+
+
 
 <!-- 片11，左侧删除2 miniprogram-slide-view-->
 <view class="page-section-title">左侧删除2</view>

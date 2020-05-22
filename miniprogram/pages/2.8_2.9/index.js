@@ -1,5 +1,5 @@
 const app = getApp()
-let viewId = 10
+let viewId = 5
 
 Page({
   data: {
@@ -42,9 +42,9 @@ willCompleteRefresh(){
     })
   },
   scrollToView1(){
-    viewId++
+    viewId += 2
     this.setData({
-      scrollIntoViewId:'view'+viewId
+      scrollIntoViewId:'childview'+viewId
     })
     console.log(this.data.scrollIntoViewId)
   },
@@ -95,7 +95,7 @@ willCompleteRefresh(){
     console.log('onAbort', e)
   },
   onScroll(e){
-    console.log(e.detail.scrollTop, e.detail.scrollHeight)
+    console.log(e.detail.scrollTop, e.detail.scrollLeft, e.detail.scrollHeight,e.detail.scrollWidth)
   },
   onScrolltoupper(e){
     console.log('已达顶部后，小于50，是一种状态')
@@ -104,5 +104,9 @@ willCompleteRefresh(){
     this.setData({
       scrollTopValue:this.data.scrollTopValue+50
     })
+  },
+  viewScrollToUpperEvent(e){
+    console.log('测试scrolltoupper事件',e.detail);
+    
   }
 })
