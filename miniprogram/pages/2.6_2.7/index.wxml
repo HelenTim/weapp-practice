@@ -28,7 +28,7 @@
 <view class="page-section">
 	<view class="page-section-title">实现动画</view>
 <movable-area>
-	<movable-view inertia damping="80" friction="1" bindchange="onMovableViewChange" animation="{{true}}" x="{{x}}" y="{{y}}" direction="all">text</movable-view>
+	<movable-view inertia damping="80" friction="1" bindchange="onMovableViewChange" animation x="{{x}}" y="{{y}}" direction="all">text</movable-view>
 </movable-area>
 	<movable-area style="width:500rpx;height:500rpx;">
 		<movable-view bindchange="onMovableViewChange" class="max" direction="all">text</movable-view>
@@ -44,7 +44,7 @@
 <view class="page-section-title">左侧删除1</view>
 <view class="list_item">
 <movable-area style="width:750rpx;height:100rpx;">
-  <movable-view style="width:1050rpx;height:100rpx;" direction="horizontal" class="max" direction="all">
+  <movable-view style="width:1050rpx;height:100rpx;" direction="horizontal" class="max">
     <view class="left">这里是插入到组内容1</view>
     <view class="right">
       <view class="read">已读</view>
@@ -53,8 +53,6 @@
   </movable-view>
 </movable-area>
 </view>
-
-
 
 
 <!-- 2.7 （二） -->
