@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/2.6_2.7/index",
     "pages/2.8_2.9/index",
     "pages/2.6_2.7/render-wxml/index",
+    "pages/2.6_2.7/index",
     "pages/2.4_2.5/index",
     "pages/2.3/index",
     "pages/2.2/index",

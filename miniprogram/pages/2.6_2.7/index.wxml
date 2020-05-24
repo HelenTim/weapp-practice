@@ -27,9 +27,11 @@
 <!-- 片6、7 实现动画 -->
 <view class="page-section">
 	<view class="page-section-title">实现动画</view>
-<movable-area>
-	<movable-view inertia damping="80" friction="1" bindchange="onMovableViewChange" animation x="{{x}}" y="{{y}}" direction="all">text</movable-view>
-</movable-area>
+
+	<movable-area>
+		<movable-view inertia damping="80" friction="1" bindchange="onMovableViewChange" animation x="{{x}}" y="{{y}}" direction="all">text</movable-view>
+	</movable-area>
+
 	<movable-area style="width:500rpx;height:500rpx;">
 		<movable-view bindchange="onMovableViewChange" class="max" direction="all">text</movable-view>
 	</movable-area>

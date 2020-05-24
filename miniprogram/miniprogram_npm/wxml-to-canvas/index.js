@@ -186,7 +186,7 @@ data: {
   lifetimes: {
     attached() {
       const {SDKVersion, pixelRatio: dpr} = wx.getSystemInfoSync()
-      const use2dCanvas = true //compareVersion(SDKVersion, '2.9.2') >= 0
+      const use2dCanvas = compareVersion(SDKVersion, '2.9.2') >= 0
       this.dpr = DOMParser
       
       this.setData({use2dCanvas}, () => {
@@ -634,7 +634,7 @@ class Draw {
 
       // 在真机上是wxfile开头，在工具上是http://tmp开头
 const isNetworkFile = /^https?:\/\//.test(img)
-const isTempFile = true// /^wxfile:\/\//.test(img)
+const isTempFile = /^wxfile:\/\//.test(img)
 
       if (isTempFile) {
         _drawImage(img)
