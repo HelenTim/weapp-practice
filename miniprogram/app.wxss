@@ -1,6 +1,7 @@
 /* @import '/miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss'; */
+@import '/style/common.wxss';
 
-page {
+/* page {
   background-color: #F8F8F8;
   height: 100%;
   font-size: 32rpx;
@@ -10,35 +11,7 @@ page {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
-
-.page-section{
-  padding: 20rpx 50rpx 60rpx;
-  width: 650rpx;
-}
-
-.page-section:last-child{
-  margin-bottom: 0;
-}
-
-.page-section-title{
-  font-size: 28rpx;
-  color: #999999;
-  margin: 40rpx 0 20rpx;
-}
-
-.btn-area{
-  box-sizing: border-box;
-  width: auto;
-  padding: 30rpx 0 30rpx;
-}
-
-.btn-area button {
-  margin-top: 20rpx;
-}
-.btn-area:first-child {
-  margin-top: 0;
-}
+} */
 
 .example-container{
   margin: 40rpx 0 40rpx;
